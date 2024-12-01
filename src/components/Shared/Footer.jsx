@@ -1,4 +1,6 @@
+import { FaDiscord, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import Container from "./Container";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -19,7 +21,7 @@ const Footer = () => {
 
         <div className="mx-auto space-y-8 px-4 py-16 sm:px-6 lg:space-y-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-4 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-5 lg:grid-cols-5 justify-items-end items-end mb-10">
               <div>
                 <p className="font-[700] text-[24px] text-white">FAQ</p>
                 <ul className="mt-6 space-y-4 font-[500] text-[20px]">
@@ -87,6 +89,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
+
               <div>
                 <div className="flex justify-center lg:col-span-1 gap-3">
                   <img
@@ -101,6 +104,22 @@ const Footer = () => {
                     width={159}
                     className="h-auto"
                   />
+                </div>
+              </div>
+              <div className="grid gap-y-4 justify-items-end text-5xl gap-4">
+                <div className="text-black">
+                  <div className="bg-primary p-6 rounded-full w-20 h-20 flex items-center justify-center my-3">
+                    <FaDiscord className="text-6xl" />
+                  </div>
+                  <div className="bg-primary p-6 rounded-full w-20 h-20 flex items-center justify-center my-3">
+                    <FaTelegramPlane />
+                  </div>
+                  <div className="bg-primary p-6 rounded-full w-20 h-20 flex items-center justify-center my-3">
+                    <FaXTwitter />
+                  </div>
+                  <div className="bg-primary p-6 rounded-full w-20 h-20 flex items-center justify-center my-3">
+                    <FaInstagram />
+                  </div>
                 </div>
               </div>
             </div>
