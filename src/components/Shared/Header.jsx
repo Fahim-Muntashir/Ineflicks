@@ -9,8 +9,9 @@ const Header = () => {
       <header>
         <div className="flex justify-between items-center mt-5 w-full">
           {/* Logo */}
-          <div>
+          <div className="flex gap-3">
             <img src="../public/assets/logomain.png" alt="Logo" width={43} />
+            <img src="../public/assets/logofull.png" alt="Logo" width={159} />
           </div>
 
           {/* Desktop Navigation Links */}
