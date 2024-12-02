@@ -6,7 +6,7 @@ import AllCategory from "./components/Home/AllCategory";
 import Review from "./components/Home/Review";
 import Footer from "./components/Shared/Footer";
 import Header from "./components/Shared/Header";
-import SellectWallet from "./components/Shared/SellectWallet";
+// import SellectWallet from "./components/Shared/SellectWallet";
 // import TrendingNowPage from "./components/TrendingNowPage/TrendingNow";
 
 function App() {
