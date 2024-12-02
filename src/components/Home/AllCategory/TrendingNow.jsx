@@ -9,7 +9,7 @@ const TrendingNowMovie = [
   },
   {
     name: "Raanjhanaa",
-    image: "/public/assets/TrendingNow/rann.png",
+    image: "/assets/TrendingNow/rann.png",
   },
 ];
 
