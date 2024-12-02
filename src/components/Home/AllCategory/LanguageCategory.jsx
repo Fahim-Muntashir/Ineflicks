@@ -1,23 +1,23 @@
 const LanguageCategoryData = [
   {
     name: "Hindi",
-    image: "/public/assets/languages/hindi 1.png",
+    image: "/assets/languages/hindi 1.png",
   },
   {
     name: "Marathi ",
-    image: "/public/assets/languages/pngegg (1) 1.png",
+    image: "/assets/languages/pngegg (1) 1.png",
   },
   {
     name: "Kannada",
-    image: "/public/assets/languages/Kannada 1.png",
+    image: "/assets/languages/Kannada 1.png",
   },
   {
     name: "Tamil",
-    image: "/public/assets/languages/tamil 1.png",
+    image: "/assets/languages/tamil 1.png",
   },
   {
     name: "English",
-    image: "/public/assets/languages/english 1.png",
+    image: "/assets/languages/english 1.png",
   },
 ];
 

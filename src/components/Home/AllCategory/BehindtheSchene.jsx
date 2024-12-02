@@ -1,15 +1,15 @@
 const behindtheSceneData = [
   {
     name: "Confession of dangerous Mind: An Unauthorised Autbiography ",
-    image: "/public/assets/BehindTheScene/1.png",
+    image: "/assets/BehindTheScene/1.png",
   },
   {
     name: "LoConfession of dangerous Mind: An Unauthorised Autbiography otera",
-    image: "/public/assets/BehindTheScene/2.png",
+    image: "/assets/BehindTheScene/2.png",
   },
   {
     name: "Confession of dangerous Mind: An Unauthorised Autbiography",
-    image: "/public/assets/BehindTheScene/3.png",
+    image: "/assets/BehindTheScene/3.png",
   },
 ];
 const BehindtheSchene = () => {
@@ -43,11 +43,11 @@ const BehindtheSchene = () => {
         {/* Static Arrows in the Middle */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-between w-full px-4">
           <button className="text-white p-2 rounded-full ">
-            <img src="/public/assets/rl.svg"></img>
+            <img src="/assets/rl.svg"></img>
           </button>
 
           <button className="text-white p-2 rounded-full ">
-            <img src="/public/assets/ra.svg"></img>
+            <img src="/assets/ra.svg"></img>
           </button>
         </div>
       </div>

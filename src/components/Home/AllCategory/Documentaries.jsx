@@ -1,15 +1,15 @@
 const behindtheSceneData = [
   {
     name: "Confession of dangerous Mind: An Unauthorised Autbiography ",
-    image: "/public/assets/Documenteries/1.png",
+    image: "/assets/Documenteries/1.png",
   },
   {
     name: "LoConfession of dangerous Mind: An Unauthorised Autbiography otera",
-    image: "/public/assets/Documenteries/2.png",
+    image: "/assets/Documenteries/2.png",
   },
   {
     name: "Confession of dangerous Mind: An Unauthorised Autbiography",
-    image: "/public/assets/Documenteries/3.png",
+    image: "/assets/Documenteries/3.png",
   },
 ];
 const Documentaries = () => {

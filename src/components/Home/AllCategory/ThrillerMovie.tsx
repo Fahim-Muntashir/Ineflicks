@@ -2,15 +2,15 @@ import React from 'react';
 const thrillerMovies = [
     {
         name: "All of us are dead",
-        image: "/public/assets/ThrillerMovie/1.png",
+        image: "/assets/ThrillerMovie/1.png",
     },
     {
         name: "Lootera",
-        image: "/public/assets/ThrillerMovie/2.png",
+        image: "/assets/ThrillerMovie/2.png",
     },
     {
         name: "Raanjhanaa",
-        image: "/public/assets/ThrillerMovie/3.png",
+        image: "/assets/ThrillerMovie/3.png",
     },
 ];
 const ThrillerMovie = () => {

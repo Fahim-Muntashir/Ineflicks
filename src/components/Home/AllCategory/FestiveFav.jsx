@@ -1,15 +1,15 @@
 const festiveFavData = [
   {
     name: "Kung Fu Panda",
-    image: "/public/assets/FestiveMovies/1.png",
+    image: "/assets/FestiveMovies/1.png",
   },
   {
     name: "Zootopia ",
-    image: "/public/assets/FestiveMovies/2.png",
+    image: "/assets/FestiveMovies/2.png",
   },
   {
     name: "Spiderman: No way Home",
-    image: "/public/assets/FestiveMovies/3.png",
+    image: "/assets/FestiveMovies/3.png",
   },
 ];
 const FestiveFav = () => {
