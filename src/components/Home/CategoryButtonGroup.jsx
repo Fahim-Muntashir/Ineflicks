@@ -34,7 +34,7 @@ const CategoryButtonGroup = () => {
                    bg-[#575757] text-black"
         >
           <div className="bg-[#F3CF9F] w-[27px] h-[27px] flex justify-center items-center rounded-full">
-            <img src="/public/assets/ra.svg" alt="" />
+            <img src="/assets/ra.svg" alt="" />
           </div>
         </button>
       </div>

@@ -1,4 +1,4 @@
-// style={{ backgroundImage: "url('../../../public/assets/contactbd.jpg')" }}
+// style={{ backgroundImage: "url('../../../assets/contactbd.jpg')" }}
 const Contact = () => {
   return (
     <div id="contact" className=" my bg-[#D6DCE1] w-full bg-cover bg-center">

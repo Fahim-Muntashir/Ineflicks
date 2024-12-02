@@ -49,7 +49,7 @@ const AllCategory = () => {
       <div
         className="w-full relative py-20 bg-cover mt-20"
         style={{
-          backgroundImage: "url(/public/assets/logowithbannerbottom.png)",
+          backgroundImage: "url(/assets/logowithbannerbottom.png)",
         }}
       >
         {" "}

@@ -3,18 +3,18 @@ import Container from "../Shared/Container";
 const PremiumMovie = [
   {
     name: "Love Aj Kal",
-    image: "/public/assets/premium.png",
+    image: "/assets/premium.png",
   },
   {
-    image: "/public/assets/premium.png",
-  },
-  {
-    name: "Love Aj Kal",
-    image: "/public/assets/premium.png",
+    image: "/assets/premium.png",
   },
   {
     name: "Love Aj Kal",
-    image: "/public/assets/premium.png",
+    image: "/assets/premium.png",
+  },
+  {
+    name: "Love Aj Kal",
+    image: "/assets/premium.png",
   },
 ];
 
@@ -29,11 +29,11 @@ const TrendingNowMovie = [
   },
   {
     name: "Raanjhanaa",
-    image: "/public/assets/TrendingNow/rann.png",
+    image: "/assets/TrendingNow/rann.png",
   },
   {
     name: "Raanjhanaa",
-    image: "/public/assets/TrendingNow/rann.png",
+    image: "/assets/TrendingNow/rann.png",
   },
 ];
 
@@ -74,7 +74,7 @@ const TrendingNowPage = () => {
                 {/* Show king.png only on the 1st (index 0) and 3rd (index 2) cards */}
                 {(index === 0 || index === 2) && (
                   <button className="absolute px-2.5 py-1.5 top-2 left-2 tracking-wide">
-                    <img src="/public/assets/king.png" alt="King Icon" />
+                    <img src="/assets/king.png" alt="King Icon" />
                   </button>
                 )}
                 <img
@@ -89,11 +89,11 @@ const TrendingNowPage = () => {
           {/* Static Arrows in the Middle */}
           <div className="absolute top-1/3 left-2/2  flex justify-between w-3/4 px-4">
             <button className="text-white p-2 rounded-full ">
-              <img src="/public/assets/rl.svg"></img>
+              <img src="/assets/rl.svg"></img>
             </button>
 
             <button className="text-white p-2 rounded-full ">
-              <img src="/public/assets/ra.svg"></img>
+              <img src="/assets/ra.svg"></img>
             </button>
           </div>
         </div>

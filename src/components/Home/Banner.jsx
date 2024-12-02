@@ -6,7 +6,7 @@ const Banner = () => {
       <div
         className="w-full h-[70vh] bg-cover bg-center relative rounded-xl"
         style={{
-          backgroundImage: "url(/public/assets/bannerbg.png)",
+          backgroundImage: "url(/assets/bannerbg.png)",
         }}
       >
         {/* Gradient overlay */}
@@ -25,7 +25,7 @@ const Banner = () => {
           className="absolute top-1/2 left-4 transform -translate-y-1/2 "
           aria-label="Previous"
         >
-          <img src="/public/assets/rl.svg"></img>
+          <img src="/assets/rl.svg"></img>
         </button>
 
         {/* Right Arrow */}
@@ -34,7 +34,7 @@ const Banner = () => {
           aria-label="Next"
         >
           {" "}
-          <img src="/public/assets/ra.svg"></img>
+          <img src="/assets/ra.svg"></img>
         </button>
       </div>
       <div className="flex items-center justify-center gap-x-3 my-4">

@@ -6,7 +6,7 @@ const Review = () => {
       <div className=" bg-[#212121] px-[21px] py-[25px] rounded-2xl my-[62px]">
         <div className="text-center">
           <img
-            src="/public/assets/start.png"
+            src="/assets/start.png"
             alt=""
             width={200}
             className="mx-auto mt-2"
