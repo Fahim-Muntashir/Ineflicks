@@ -6,7 +6,8 @@ import AllCategory from "./components/Home/AllCategory";
 import Review from "./components/Home/Review";
 import Footer from "./components/Shared/Footer";
 import Header from "./components/Shared/Header";
-import TrendingNowPage from "./components/TrendingNowPage/TrendingNow";
+import SellectWallet from "./components/Shared/SellectWallet";
+// import TrendingNowPage from "./components/TrendingNowPage/TrendingNow";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Review></Review>
       <ConnectWalletState></ConnectWalletState>
       <AllCategory></AllCategory>
+      {/* <SellectWallet></SellectWallet> */}
       {/* <TrendingNowPage></TrendingNowPage> */}
       <Footer></Footer>
     </>
