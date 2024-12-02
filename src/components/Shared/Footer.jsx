@@ -21,7 +21,7 @@ const Footer = () => {
 
         <div className="mx-auto space-y-8 px-4 py-16 sm:px-6 lg:space-y-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-5 lg:grid-cols-5 justify-items-end items-end mb-10">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-5 lg:grid-cols-5 ">
               <div>
                 <p className="font-[700] text-[24px] text-white">FAQ</p>
                 <ul className="mt-6 space-y-4 font-[500] text-[20px]">
